@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#02040a" />
+    <meta
+      name="description"
+      content="Isagi Yoichi — More than just a game. An interactive Blue Lock editorial poster about vision, adaptation, and evolution."
+    />
+    <title>Isagi Yoichi — More Than Just a Game</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2302040a'/%3E%3Cpath d='M14 13h13v38H14zm23 0h13v38H37z' fill='%230c66ff'/%3E%3C/svg%3E" />
+    <link rel="preload" as="image" href="assets/isagi-poster.webp" type="image/webp" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css" />
+    <script>document.documentElement.classList.add('js');</script>
+    <script type="module" src="/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#manifesto">Skip to the manifesto</a>
+    <div class="scroll-progress" aria-hidden="true"></div>
+
+    <main>
+      <section class="hero" id="top" aria-labelledby="poster-title">
+        <div class="hero__ambient" aria-hidden="true"></div>
+
+        <header class="site-header">
+          <a class="site-header__brand" href="#top" aria-label="Blue Lock, back to top">
+            <span class="site-header__mark">BL</span>
+            <span>BLUE LOCK <i> / </i> 11</span>
+          </a>
+          <nav class="site-nav" aria-label="Main navigation">
+            <a href="#manifesto">The story</a>
+            <a href="#field-read">The method</a>
+            <a class="site-nav__cta" href="#greater-view">Explore <span aria-hidden="true">↗</span></a>
+          </nav>
+        </header>
+
+        <article class="poster" aria-label="Isagi Yoichi interactive editorial poster">
+          <h1 class="sr-only" id="poster-title">More than just a game — Isagi Yoichi</h1>
+
+          <picture class="poster__picture">
+            <source srcset="assets/isagi-poster.webp" type="image/webp" />
+            <img
+              class="poster__image"
+              src="assets/isagi-poster.jpg"
+              width="1448"
+              height="1086"
+              alt="Isagi Yoichi, number 11, surrounded by monochrome manga panels, electric-blue paint, and the words More than just a game."
+              fetchpriority="high"
+              decoding="async"
+            />
+          </picture>
+
+          <div class="poster__light" aria-hidden="true"></div>
+          <div class="poster__mobile-shade" aria-hidden="true"></div>
+          <img class="poster__mobile-title" src="assets/isagi-headline.webp" alt="" width="690" height="475" aria-hidden="true" />
+
+          <div class="poster__mobile-id" aria-hidden="true">
+            <span>ISAGI YOICHI</span>
+            <span lang="ja">潔 世 一</span>
+          </div>
+
+          <div class="poster__hotspots" role="group" aria-label="Explore the poster">
+            <button
+              class="hotspot hotspot--perspective"
+              type="button"
+              data-story="perspective"
+              aria-label="Explore a new perspective"
+            >
+              <span>New perspective</span>
+            </button>
+            <button
+              class="hotspot hotspot--vision"
+              type="button"
+              data-story="vision"
+              aria-label="Explore Isagi's vision"
+            >
+              <span>Vision</span>
+            </button>
+            <button
+              class="hotspot hotspot--greater"
+              type="button"
+              data-story="greater"
+              aria-label="Explore the greater view quote"
+            >
+              <span>A greater view</span>
+            </button>
+          </div>
+
+          <div class="poster__mobile-footer">
+            <strong>BLUE<br />LOCK</strong>
+            <a href="#manifesto">
+              <span>A greater view</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4v15m-6-6 6 6 6-6" />
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <a class="hero__scroll" href="#manifesto" aria-label="Scroll to the manifesto">
+          <span>SCROLL TO EVOLVE</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="manifesto" id="manifesto" aria-labelledby="manifesto-title">
+        <div class="manifesto__inner">
+          <header class="manifesto__header" data-reveal>
+            <p class="eyebrow"><span>11</span> / THE EGOIST'S CREED</p>
+            <h2 id="manifesto-title">
+              A new <em>perspective</em><br />changes everything.
+            </h2>
+          </header>
+
+          <div class="manifesto__feature">
+            <figure class="vision-card" data-reveal style="--delay: 80ms">
+              <div class="vision-card__image">
+                <img
+                  src="assets/isagi-vision.webp"
+                  width="430"
+                  height="360"
+                  loading="lazy"
+                  decoding="async"
+                  alt="Close-up manga panels of Isagi's sharp blue eyes."
+                />
+              </div>
+              <figcaption>
+                <span>METAVISION</span>
+                <span>潔 世 一</span>
+              </figcaption>
+            </figure>
+
+            <div class="manifesto__statement" data-reveal style="--delay: 160ms">
+              <span class="statement-mark" aria-hidden="true">“</span>
+              <blockquote>
+                Football isn't just a game. It's a place where I can become a better me.
+              </blockquote>
+              <p>
+                Football makes me see a bigger world. Every field is a puzzle; every limitation,
+                another piece waiting to be devoured.
+              </p>
+              <span class="signature">Isagi Yoichi</span>
+            </div>
+          </div>
+
+          <section class="field-read" id="field-read" aria-labelledby="field-read-title" data-reveal>
+            <div class="field-read__heading">
+              <p class="eyebrow"><span>02</span> / READ THE FIELD</p>
+              <h3 id="field-read-title">Every move<br />has a <em>meaning.</em></h3>
+              <p>Scan the space. Predict what comes next. Turn the field into your own equation.</p>
+            </div>
+
+            <div class="field-board" role="group" aria-label="Interactive map of Isagi's playmaking process">
+              <div class="field-board__topline">
+                <span>SPATIAL AWARENESS / LIVE ANALYSIS</span>
+                <span><i aria-hidden="true"></i> SYSTEM ONLINE</span>
+              </div>
+              <div class="field-board__pitch">
+                <svg class="field-board__lines" viewBox="0 0 760 390" fill="none" aria-hidden="true">
+                  <rect x="25" y="25" width="710" height="340" rx="2" />
+                  <path d="M380 25v340M380 135a55 55 0 1 0 0 110a55 55 0 1 0 0-110ZM25 112h105v166H25m0-115h48v64H25m710-115H630v166h105m0-115h-48v64h48" />
+                  <circle cx="380" cy="195" r="3" />
+                  <path class="field-board__route" d="M105 292 255 211 380 195 525 99 655 143" />
+                </svg>
+                <span class="field-board__coordinate field-board__coordinate--one">A1 / SCAN</span>
+                <span class="field-board__coordinate field-board__coordinate--two">B7 / PREDICT</span>
+                <span class="field-board__coordinate field-board__coordinate--three">C11 / DEVOUR</span>
+                <button class="field-node field-node--one" type="button" data-story="perspective" aria-label="Explore scanning the field">
+                  <span>01</span>
+                </button>
+                <button class="field-node field-node--two" type="button" data-story="vision" aria-label="Explore predicting the play">
+                  <span>02</span>
+                </button>
+                <button class="field-node field-node--three" type="button" data-story="greater" aria-label="Explore creating the final play">
+                  <span>03</span>
+                </button>
+                <span class="field-board__ball" aria-hidden="true"></span>
+              </div>
+              <div class="field-board__legend">
+                <span><i class="field-board__legend-dot"></i> ISAGI / NO. 11</span>
+                <span>SCANNING THE NEXT PLAY <b>→</b></span>
+              </div>
+            </div>
+          </section>
+
+          <ol class="principles" id="principles" aria-label="Isagi's principles">
+            <li data-reveal style="--delay: 0ms">
+              <span>01</span>
+              <strong>Vision</strong>
+              <p>See the whole field.</p>
+            </li>
+            <li data-reveal style="--delay: 70ms">
+              <span>02</span>
+              <strong>Thinking</strong>
+              <p>Find the missing piece.</p>
+            </li>
+            <li data-reveal style="--delay: 140ms">
+              <span>03</span>
+              <strong>Adaptation</strong>
+              <p>Change the equation.</p>
+            </li>
+            <li data-reveal style="--delay: 210ms">
+              <span>04</span>
+              <strong>Evolution</strong>
+              <p>Become a better me.</p>
+            </li>
+          </ol>
+
+          <div class="greater-view" id="greater-view" data-reveal>
+            <div class="greater-view__copy">
+              <p class="eyebrow">SAME PASSION. BIGGER MEANING.</p>
+              <h3>I want to see<br />a <em>greater view.</em></h3>
+              <p lang="ja">もっと先の景色を見たい。</p>
+            </div>
+            <figure class="greater-view__art">
+              <img
+                src="assets/isagi-action.webp"
+                width="448"
+                height="285"
+                loading="lazy"
+                decoding="async"
+                alt="Black-and-white manga illustration of Isagi striking the ball."
+              />
+            </figure>
+          </div>
+
+          <footer class="manifesto__footer" data-reveal>
+            <p>IT'S NOT JUST A GAME.</p>
+            <p>IT'S MY WAY TO A BETTER SELF.</p>
+            <span>BLUE LOCK / ISAGI YOICHI / 11</span>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="story-dialog" id="story-dialog" aria-labelledby="dialog-title">
+      <button class="story-dialog__close" type="button" aria-label="Close story">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19" /></svg>
+      </button>
+      <div class="story-dialog__media">
+        <img id="dialog-image" src="assets/isagi-vision.webp" alt="" width="430" height="360" loading="lazy" decoding="async" />
+      </div>
+      <div class="story-dialog__content">
+        <p class="eyebrow" id="dialog-eyebrow">ISAGI YOICHI / 11</p>
+        <h2 id="dialog-title">Vision</h2>
+        <blockquote id="dialog-quote"></blockquote>
+        <p class="story-dialog__hint">Press Esc to return to the poster</p>
+      </div>
+    </dialog>
+
+    <noscript>
+      <style>
+        [data-reveal] { opacity: 1 !important; transform: none !important; }
+        .hotspot, .hero__scroll { display: none !important; }
+      </style>
+    </noscript>
+  </body>
+</html>
